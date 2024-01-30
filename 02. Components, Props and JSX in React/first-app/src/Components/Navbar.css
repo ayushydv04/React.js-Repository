@@ -1,8 +1,8 @@
 nav{
-    background-color: beige;
+    background-color: burlywood;
     display: flex;
     justify-content: center;
-    border: 2px solid rgb(217, 217, 116);
+    /* border: 2px solid rgb(217, 217, 116); */
     align-items: center;
     height: 5vh;
     position: sticky;

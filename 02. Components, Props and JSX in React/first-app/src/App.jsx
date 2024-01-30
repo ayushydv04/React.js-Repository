@@ -12,11 +12,15 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <div className="Cards">
-        <Card title = "Card 1" description = " Card 1 desc" />
-        <Card title = "Card 2" description = " Card 2 desc" />
-        <Card title = "Card 3" description = " Card 3 desc" />
-        <Card title = "Card 4" description = " Card 4 desc" />
+      <div className="main">
+        <div className="Cards">
+          <Card title="Card 1" description=" Card 1 desc" />
+          <Card title="Card 2" description=" Card 2 desc" />
+          <Card title="Card 3" description=" Card 3 desc" />
+          <Card title="Card 4" description=" Card 4 desc" />
+
+        </div>
+
       </div>
       <div>
         <Footer />
