@@ -1,13 +1,18 @@
 import React from 'react'
 
-// Well replace anchor tag with Links of 
+// Well replace anchor tag with Links of react-router-dom
+
+// To use we'll first import links
+
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+
   return (
     <nav>
-        <a href="/"><li>Home</li></a>
-        <a href="/about"><li>About</li></a>
-        <a href="/login"><li>Login</li></a>
+        <Links href="/"><li>Home</li></Links>
+        <Links href="/about"><li>About</li></Links>
+        <Links href="/login"><li>Login</li></Links>
     </nav>
   )
 }
