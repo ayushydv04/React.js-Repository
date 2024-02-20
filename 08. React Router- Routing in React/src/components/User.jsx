@@ -9,7 +9,7 @@ const User = () => {
 
   return (
     <div>
-      I am {params.user}
+      I am {params.username}
     </div>
   )
 }
