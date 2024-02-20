@@ -10,9 +10,9 @@ const Navbar = () => {
 
   return (
     <nav>
-        <Links href="/"><li>Home</li></Links>
-        <Links href="/about"><li>About</li></Links>
-        <Links href="/login"><li>Login</li></Links>
+        <Link to="/"><li>Home</li></Link>
+        <Link to="/about"><li>About</li></Link>
+        <Link to="/login"><li>Login</li></Link>
     </nav>
   )
 }
